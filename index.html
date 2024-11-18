@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="script" href="scripts.js">
+</head>
+<body>
+  <header class="header">
+    <div class="profile-photo">
+      <img src="img/profile.jpg" alt="Фото человека">
+    </div>
+    <h1>Привет, я</h1>
+    <h2>Владислав Рожковский</h2>
+  </header>
+
+  <main class="content">
+    <!-- Блок грамот -->
+    <section class="certificates">
+      <h3>Мои грамоты</h3>
+      <div>
+      <h3>2 курс</h3>
+      <div class="photos">
+        <div class="photo-block">
+          <img src="img/cert1.jpg" alt="Грамота 1">
+        </div>
+        <div class="photo-block">
+          <img src="img/cert2.jpg" alt="Грамота 2">
+          <div class="photo-block">
+            <img src="img/cert3.jpg" alt="Грамота 2">
+        </div>
+    </div>
+      </div>
+      <h3>3 курс</h3>
+      <div class="photos">
+        <div class="photo-block">
+          <img src="img/cert4.jpg" alt="Грамота 1">
+        </div>
+        <div class="photo-block">
+          <img src="img/cert5.png" alt="Грамота 2">
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок проекта -->
+    <section class="project">
+      <h3>Мой проект</h3>
+      <div class="photos" id="project">
+        <div class="photo-block">
+          <img src="img/project1.png" alt="Фото проекта">
+        </div>
+        <div class="photo-block">
+            <img src="img/project2.png" alt="Фото проекта">
+          </div>
+          <div class="photo-block">
+            <img src="img/project3.png" alt="Фото проекта">
+          </div>
+      </div>
+    </section>
+
+<div class="button-container">
+    <button class="go-to-contact" onclick="navigateToContact()">Связаться со мной</button>
+</div>
+<script src="scripts.js"></script>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Владислав Рожковский. Все права защищены.</p>
+  </footer>
+</body>
+</html>
